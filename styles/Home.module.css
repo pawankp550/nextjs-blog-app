@@ -124,3 +124,7 @@
 .disqus_container {
   width: 100%;
 }
+
+.back_btn {
+  font-weight: 600;
+}

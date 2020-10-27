@@ -32,7 +32,7 @@ const Home: React.FC<{ posts: Post[] }> = ({posts}) => {
         {
           posts.map(post => {
             return(
-              <li key={post.slug}>
+              <li key={post.slug} className={styles.card}>
                 <Link href='post/[slug]' as={`post/${post.slug}`}>
                   <a>{post.title}</a>
                 </Link>

@@ -67,7 +67,7 @@ export const Post: React.FC<{ post: Post  }> = ({ post }) => {
     return (
         <div className={styles.container}>
             <Link href="/">
-                <a>Go Back</a>
+                <a className={styles.back_btn}>Go Back</a>
             </Link>
             <div className={styles.container}>
               <h1>{post.title}</h1>
