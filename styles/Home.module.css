@@ -128,3 +128,10 @@
 .back_btn {
   font-weight: 600;
 }
+
+.comment_btn {
+  font-weight: 700;
+  text-align: center;
+  margin: 20px;
+  cursor: pointer;
+}

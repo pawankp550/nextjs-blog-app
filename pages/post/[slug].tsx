@@ -76,7 +76,7 @@ export const Post: React.FC<{ post: Post  }> = ({ post }) => {
             <div className={styles.disqus_container}>
               {
                 loadComments ? (
-                <p onClick={loadDiscuss} >
+                <p onClick={loadDiscuss} className={styles.comment_btn}>
                   Load Comments
                 </p>) : null
               }
