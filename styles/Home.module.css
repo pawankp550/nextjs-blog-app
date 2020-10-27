@@ -120,3 +120,7 @@
     flex-direction: column;
   }
 }
+
+.disqus_container {
+  width: 100%;
+}
