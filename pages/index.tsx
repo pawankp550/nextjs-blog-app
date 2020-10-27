@@ -14,7 +14,7 @@ const getPosts = async () => {
   return data.posts
 }
 
-export const getStaticProps = async ({ params }) => {
+export const getStaticProps = async ({ params }: { params: any }) => {
   const posts = await getPosts()
   return {
     props: {

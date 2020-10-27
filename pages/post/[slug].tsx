@@ -18,7 +18,7 @@ type Post = {
   html: string
 }
 
-export const getStaticProps = async ({params}) => {
+export const getStaticProps = async ({params}: { params: any }) => {
     const post = await getPost(params.slug)
     return {
       props: {
